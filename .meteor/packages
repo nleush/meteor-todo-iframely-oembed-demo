@@ -8,3 +8,5 @@ insecure
 less
 iron:router@0.9.4
 accounts-password
+iframely:oembed
+

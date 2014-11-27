@@ -6,6 +6,11 @@ Template.todosItem.helpers({
   },
   editingClass: function() {
     return Session.equals(EDITING_KEY, this._id) && 'editing';
+  },
+  embed: function() {
+    return {
+      url: this.text
+    };
   }
 });
 
